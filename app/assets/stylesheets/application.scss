@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap/scss/bootstrap";
+
+ h1 {
+  font-size: 24px;
+ }
+
+h3 {
+  font-size: 16px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flat-card {
+  box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, .2);
+  background-color: #F8F9FA;
+}
+
+.border {
+  border: 1px solid 0.4;
+  background-color: #FFFFFF;
+}
